@@ -494,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -661,7 +661,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding: 30px;
   border-radius: 6px;
 }
@@ -682,12 +682,14 @@ section {
 .services .icon-box h4 a {
   color: #556270;
   transition: 0.3s;
+  /* padding: 0px; */
 }
 
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
+  /* padding: 0px; */
 }
 
 .services .icon-box:hover h4 a {
@@ -977,7 +979,7 @@ section {
 # Our Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 70px;
   display: block;
   background: none;
   border-radius: 0;
