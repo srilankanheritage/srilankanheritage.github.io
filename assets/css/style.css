@@ -651,9 +651,22 @@ section {
   transform: scale(1.15);
 }
 
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
 @media (max-width: 768px) {
   .clients img {
     max-width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-scroll {
+    overflow-x: auto;
+  }
+  .container-scroll > .row {
+    width: 133.33333333%; /* = 100% * 4/3 */
   }
 }
 
@@ -2077,4 +2090,25 @@ section {
 
 #footer .credits a:hover {
   color: white;
+}
+
+
+
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
 }
